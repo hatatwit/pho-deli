@@ -1,0 +1,454 @@
+{
+  "menu": [
+    {
+      "category": "Vietnamese Sandwiches",
+      "description": "A crunchy French-style baguette stuffed with combination of meat, vegestables and other condiments.",
+      "menu": [
+        {
+          "item": "Cold Cut Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Grilled Beef Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Grilled Pork Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Grilled Chicken Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Meat Ball Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Vegetarian Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Shredded Pork Skin Sandwich",
+          "description": "",
+          "price": "$6.50"
+        },
+        {
+          "item": "Grilled Pork Paste Sandwich",
+          "description": "",
+          "price": "$6.50"
+        }
+      ]
+    },
+    {
+      "category": "Appertizers",
+      "description": "",
+      "menu": [
+        {
+          "item": "Egg Rolls (3 Rolls)",
+          "description": "A savory mixture of ground pork, chicken and mixed vegetable, grassnoodle wrapped in rice paper and fried until golden brown. Served with home made sauce.",
+          "price": "$4.50"
+        },
+        {
+          "item": "Spring Rolls (2 Rolls)",
+          "description": "<pre>Filled with shrimp, pork, carrot, shredded lettuce, vermicelli and mint then wrapperd into a softened rice paper. Serve with peanut dipping sauce or fish sauce.\nChoice of shrimp and pork, shrimp only, grilled beef, grilled chicken, grilled pork, shredded pork skin or tofu.",
+          "price": "$4.50 - $4.95"
+        },
+        {
+          "item": "Grilled Pork Paste Rolls (2 Rolls)",
+          "description": "Grilled pork patties or pork ball rolled in rice paper with variety of greens and herbs. Served with our special dipping plum sauce.",
+          "price": "$4.95"
+        },
+        {
+          "item": "Thai Crab Rangoons (4 Pieces)",
+          "description": "Shredded crab meat flavored cream cheese and onion.",
+          "price": "$4.50"
+        },
+        {
+          "item": "Vietnamese Crepe",
+          "description": "A traditional mixture of shrimp, pork, bean sprouts and dedicate sauce folded into a rice powder pancake served with lettuce, sweet basil and cucumber.",
+          "price": "$9.50"
+        }
+      ]
+    },
+    {
+      "category": "Rice Vermicelli",
+      "description": "Rice Vermicelli with grilled meats, shredded lettuce, mint, beansprout, cucumber, scallion and fresh roasted peanut. Served with homemade fish sauce.",
+      "menu": [
+        {
+          "item": "Grilled Pork with Fried Egg Roll Vermicelli",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Grilled Pork & Shrimp Vermicelli",
+          "description": "",
+          "price": "$13.50"
+        },
+        {
+          "item": "Grilled Pork & Shrimp with Egg Roll Vermicelli",
+          "description": "",
+          "price": "$13.95"
+        },
+        {
+          "item": "Grill Pork Vermicelli",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Grill Beef Vermicelli",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Grill Chicken Vermicelli",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Grill Shrimp Vermecelli",
+          "description": "",
+          "price": "$12.50"
+        }
+      ]
+    },
+    {
+      "category": "Noodle Soups",
+      "description": "Our famous Vietnamese soups with scallions, onion and cilantro. Served with a plate of beansprouts, fresh basil, sliced lime and Jalapeño on the side.\n** Please note that a side order of beef balls can be added to any of the below soups for $1.50 **\n*** Consuming raw or uncooked meat, poultry, seafood, shellfish or egg may increase your risk of foodborne illness. ***",
+      "menu": [
+        {
+          "item": "Pho Xe Lua",
+          "description": "An extra large bowl beef noodle soup. A bowl of our most popular beef noodle soup combing with rare steak, well-done brisket, flank, tendon, and tripe.",
+          "price": "$13.95"
+        },
+        {
+          "item": "Pho Dac Biet",
+          "description": "An large bowl beef noodle soup. A bowl of our most popular beef noodle soup combing with rare steak, well-done brisket, flank, tendon, and tripe.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Gau Gan Sach",
+          "description": "A large bowl of beef noodle soup with a combination of rare steak, well-done flank, tendon, and tripe.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Gan Sach",
+          "description": "A large bowl of beef noodle soup with a combination of rare steak, well-done tendon and tripe.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai",
+          "description": "A large bowl of beef noodle soup with rare steak.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Gan",
+          "description": "A large bowl of beef noodle soup with rare steak and tendon.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Gau",
+          "description": "A large bowl of beef noodle soup with rare steak and well-done brisket.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Sach",
+          "description": "A large bowl of beef noodle soup with rare steak and tripe.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Tai Nam",
+          "description": "A large bowl of beef noodle soup with rare steak and well-done flank.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Bo Vien",
+          "description": "A large bowl of beef ball noodle soup.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Pho Ga",
+          "description": "A large bowl of chicken noodle soup with shredded chicken served with clear chicken broth or beef broth.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Seafood and Pork Noodle Soup",
+          "description": "A large bowl of clear noodle or rice noodle soup topped with shrimp, crabmeat, pork heart, pork liver and sliced pork in clear chicken broth.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Seafood Noodle Soup",
+          "description": "A large bowl of seafood noodle soup topped with shrimp, squid and scallop with choice of yellow or rice noodles.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Bun Bo Hue",
+          "description": "Spicy Hue style noodle soup with lemongrass beef broth, sliced beef, and pig's trotter",
+          "price": "$12.95"
+        },
+        {
+          "item": "Beef Stew with Rice Noodle",
+          "description": "A large bow of beef stew soup with beef and carrots with choice of rice noodle or bread on the side.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Crab Noodle Soup",
+          "description": "A large bow of crab noodle soup with vermicelli, crabmeat, fish cake and tomato.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Angoy Noodle Soup",
+          "description": "A large bow of angovy noodle soup with vermicelli, fish, shrimp, crabmeat, and fish cake.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Chicken Curry with Vermicelli",
+          "description": "A large bow of chicken curry soup with chicken, and taro with choice of vermicelli or bread on the side.",
+          "price": "$12.95"
+        }
+
+      ]
+    },
+    {
+      "category": "Rice Dishes",
+      "description": "** Any Extra Sauce for $0.50",
+      "menu": [
+        {
+          "item": "BBQ Sliced Pork over Rice",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "BBQ Chicken over Rice",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "BBQ Beef over Rice",
+          "description": "",
+          "price": "$12.95"
+        },
+        {
+          "item": "Lemongrass Chicken Leg over Rice",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "BBQ Pork Chop over Rice",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Com Suon Bi Cha",
+          "description": "A white rice plate with pork chop, shredded pork skin, and pork cake.",
+          "price": "$13.95"
+        },
+        {
+          "item": "Com Suon & Tau Hu Ki",
+          "description": "A white rice plate with pork chop, and deep-fried shrimp paste wrapped in bean curd skin.",
+          "price": "$12.95"
+        },
+        {
+          "item": "Vietnamese Fried Rice",
+          "description": "A stir-fried rice plate with shrimp, chicken, egg, chinese sausage, green peas and carrots",
+          "price": "$12.50"
+        },
+        {
+          "item": "Siam Fried Rice",
+          "description": "A stir-fried rice plate with shrimp, chicken, egg, onion, tomatos, carrots, green peas and scallion in special sauce.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Seafood Fried Rice",
+          "description": "A stir-fried rice plate with shrimp, squid, scallip, egg and mixed vegestables.",
+          "price": "$12.95"
+        }
+      ]
+    },
+    {
+      "category": "Stir-fried Noodle Dishes",
+      "description": "",
+      "menu": [
+        {
+          "item": "Pad Thai",
+          "description": "The most famous Thai nooodle stir-fried with shrimp, chicken, egg, bean sprouts and scallion topped with ground peanuts.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Country Pad Thai",
+          "description": "An authentic spicy version of Pad Thai with chicken, shrimp, bean sprouts, scallion, egg topped with ground peanuts and spice.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Chicken Pad Thai",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Beef Pad Thai",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Shrimp Pad Thai",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Veggies Pad Thai",
+          "description": "",
+          "price": "$12.50"
+        },
+        {
+          "item": "Drunken Noodle",
+          "description": "A stir-ried flat rice noodles with chicken, thai chilli sauce, basil leaves and vegestables with a choice of chicken, beef or shrimp.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Pad See Ew",
+          "description": "A stir-fried with flat rice noodles, egg, broccoli and carrots in dark brown sauce with a choice of chicken, beef or shrimp.",
+          "price": "$"
+        },
+        {
+          "item": "Stir-fried Egg Noodle",
+          "description": "A stir-fried egg noodles with a choice of chicken, beef or shrimp.",
+          "price": "$12.50"
+        },
+        {
+          "item": "Stir-fried Rice Noodle",
+          "description": "A stir-fried rice noodles with a choice of chicken, beef or shrimp.",
+          "price": "$12.50"
+        }
+      ]
+    },
+    {
+      "category": "House Specialties",
+      "description": "",
+      "menu": [
+        {
+          "item": "Sweet and Sour Soup",
+          "description": "A hot, sweet and sour soup with a choice of filet catfish or shrimp.",
+          "price": "$14.50"
+        },
+        {
+          "item": "Caramelized Catfish",
+          "description": "A hot and salty filet catfish with dark brown caramelized sauce.",
+          "price": "$12.50"
+        }
+      ]
+    },
+    {
+      "category": "Smoothies",
+      "description": "** With tapioca pearl $0.75 extra **",
+      "menu": [
+        {
+          "item": "Mango",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Coconut",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Strawberry",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Pineaple",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Avocado",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Durian",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Honeydew",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Taro",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Green Tea",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Watermelon",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Passion Fruit",
+          "description": "",
+          "price": "$4.00"
+        },
+        {
+          "item": "Rasberry",
+          "description": "",
+          "price": "$4.00"
+        }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "description": "",
+      "menu": [
+        {
+          "item": "Vietnamese Hot Coffee",
+          "description": "Hot vietnamese coffee served with condensed milk or black",
+          "price": "$3.50"
+        },
+        {
+          "item": "Vietnamese Iced Coffee",
+          "description": "Iced vietnamese coffee served with condensed milk or black",
+          "price": "$3.50"
+        },
+        {
+          "item": "Thai Iced Tea",
+          "description": "",
+          "price": "$3.50"
+        },
+        {
+          "item": "Snapple & Powerade & Gatorade",
+          "description": "",
+          "price": "$1.50"
+        },
+        {
+          "item": "Red Bull",
+          "description": "",
+          "price": "$2.75"
+        },
+        {
+          "item": "Soda",
+          "description": "",
+          "price": "$1.25"
+        },
+        {
+          "item": "Bottle Water",
+          "description": "",
+          "price": "$1.00"
+        }
+      ]
+    }
+  ]
+}
