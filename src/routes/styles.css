@@ -2,6 +2,7 @@
 .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hero_img.jpg");
     min-height: 500px;
+    width: auto;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -106,7 +107,7 @@ h2 {
 
 /* -----    Menu Section Start  ----- */
 .menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/menu_img.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/menu_img.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -135,7 +136,7 @@ h2 {
 
 /* -----    Menu Section End  ----- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
     .home {
         height: 620px;
     }
@@ -159,6 +160,6 @@ h2 {
         flex-direction: column;
     }
     .contact iframe {
-        width: 350px;
+        width: 300px;
     }
 }
