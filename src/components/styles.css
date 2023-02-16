@@ -1,112 +1,167 @@
 /* -----    Navbar Section Start  ----- */
 .navbar {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .navbar a {
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 14px 16px;
-    letter-spacing: 1px;
-    font-family: 'Taviraj', serif;
-    cursor: pointer;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 16px;
+  letter-spacing: 1px;
+  font-family: "Taviraj", serif;
+  cursor: pointer;
 }
 
 .logo a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    font-family: 'Merienda', cursive;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: "Merienda", cursive;
 }
 
-.right-navbar {
-    float: right;
+.right {
+  float: right;
+}
+
+.hamburger {
+  display: none;
 }
 
 /* -----    Navbar Section End  ----- */
 
 /* -----    MenuItem Section Start  ----- */
 .wrapper {
-    margin: 0 3rem;
+  margin: 0 3rem;
 }
+
 .category-description {
-    text-align: center;
-    padding: 2rem 0;
-    color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  padding: 2rem 0;
+  color: rgba(255, 255, 255, 0.65);
 }
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5rem;
 }
 .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 .menu-item {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
+  animation: fadeInAnimation ease 0.6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu-item h5 {
-    color: white;
-    margin-bottom: 8px;
-    font-size: 18px;
-    margin: 0;
-    font-weight: 500;
-    line-height: 1.2;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .menu-item .mi-meta {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
 .menu-item p {
-    font-size: 12px;
-    line-height: normal;
-    display: table-cell;
-    width: 222px;
-    padding-right: 18px;
-    font-style: italic;
+  font-size: 12px;
+  line-height: normal;
+  display: table-cell;
+  width: 222px;
+  padding-right: 18px;
+  font-style: italic;
 }
 .menu-item .menu-price {
-    display: table-cell;
-    color: #fff;
-    text-align: right;
-    position: relative;
-    font-size: 17px;
+  display: table-cell;
+  color: #fff;
+  text-align: right;
+  position: relative;
+  font-size: 17px;
 }
 .menu-item .menu-price::after {
-    position: absolute;
-    content: "";
-    width: calc(100% - 63px);
-    left: 0;
-    top: 50%;
-    margin-top: -1px;
-    border-bottom: 2px dotted rgba(255, 255, 255, 0.25);
+  position: absolute;
+  content: "";
+  width: calc(100% - 63px);
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.25);
 }
 
 /* -----    MenuItem Section End  ----- */
 
 /* -----    TabNav Section Start  ----- */
 .tabnav {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 }
 .tabnav div {
-    display: inline-block;
-    color: white;
-    text-transform: uppercase;
-    margin: 1rem;
-    font-weight: 600;
-
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  margin: 1rem;
+  font-weight: 600;
 }
 /* -----    TabNav Section End  ----- */
+
+@media only screen and (max-width: 600px) {
+  .navbar-desktop {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin: 1rem;
+    right: 2.06rem;
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  .navbar-mobile {
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    background: rgba(156, 153, 153, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    z-index: 9;
+    transition: all 0.5s ease-in-out;
+  }
+  .navlink {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+  }
+}

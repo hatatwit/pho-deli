@@ -2,9 +2,6 @@
 .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hero_img.jpg");
     min-height: 500px;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -43,20 +40,6 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-.about img {
-    position: relative;
-    animation: ImgBounce;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-direction: reverse;
-    animation-timeline: scroll(block nearest);
-}
-@keyframes ImgBounce {
-    0% {left: 0; top: 0;}
-    100% {left: 0; top: 100px;}
-}
-
 .col {
     margin: 0 2em;
 }
@@ -115,6 +98,9 @@ h2 {
     text-align: right;
     padding-left: 15px;
 }
+.col-5 {
+    margin: 2rem;
+}
 
 /* -----    Contact Section End  ----- */
 
@@ -148,3 +134,31 @@ h2 {
 }
 
 /* -----    Menu Section End  ----- */
+
+@media only screen and (max-width: 600px) {
+    .home {
+        height: 620px;
+    }
+    .home h1 {
+        font-size: 40px;
+    }
+    .home p {
+        text-align: center;
+        top: 60%;
+    }
+
+    .about {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .about img {
+        width: 350px;
+        height: auto;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact iframe {
+        width: 350px;
+    }
+}

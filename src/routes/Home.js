@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "./styles.css";
 
 export default function Home() {
+
     return (
         <div className="home" id="home">
             <Navbar/>
